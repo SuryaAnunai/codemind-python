@@ -6,7 +6,8 @@ def func(num):
     return fs
 a=int(input())
 b=int(input())
-if(func(b)==a and func(a)==b):
+if (func(b)==a and func(a)==b):
     print("Amicable")
 else:
     print("Not Amicable")
+        
